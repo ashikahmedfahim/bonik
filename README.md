@@ -1,7 +1,7 @@
 <p align="center">copy the content of .env_back file and paste it into .env(create it)</p>
 <p align="center">.env should be in the same directory as app.js</p>
 <p align="center">DATABASE name must be "bonik"</p>
-<p align="center">user your postgres user name and password</p>
+<p align="center">Use your postgres user name and password</p>
 <hr>
 <p align="center">create a new database named "bonik" in postgresql</p>
 <p align="center">then create a schema named "general"</p>
