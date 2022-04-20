@@ -5,7 +5,7 @@
 <p align="center">create a new database named "bonik" in postgresql</p>
 <p align="center">then create a schema named "general"</p>
 <hr>
-<p align="center">after this go to order model and remove comment out the line that says</p>
+<p align="center">after this go to order.js in the model directory and remove comment out the line that says</p>
 
 <pre>
  const createTable = async () => {
