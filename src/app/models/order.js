@@ -15,7 +15,7 @@ const Order = sequelize.define(
     },
     status: {
       type: DataTypes.ENUM,
-      values: ['1', '2', '3'],
+      values: ["1", "2", "3"],
       allowNull: false,
     },
   },
@@ -25,5 +25,15 @@ const Order = sequelize.define(
     timestamps: false,
   }
 );
+
+// const createTable = async () => {
+//   try {
+//     await sequelize.sync({ alter: true });
+//   } catch (error) {
+//     console.log(error);
+//   }
+// };
+
+// createTable();
 
 module.exports = Order;
