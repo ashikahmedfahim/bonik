@@ -1,3 +1,4 @@
+<p align="center">run "npm i"</p>
 <p align="center">copy the content of .env_back file and paste it into .env(create it)</p>
 <p align="center">.env should be in the same directory as app.js</p>
 <p align="center">DATABASE name must be "bonik"</p>
